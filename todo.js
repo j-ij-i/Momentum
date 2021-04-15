@@ -29,7 +29,6 @@ function paintToDo(text){
     const delBtn = document.createElement("button");
     const span = document.createElement("span");
     const newId = liidNum++;
-    //단순히 length길이 말고 순서를 받아와야함
     delBtn.innerHTML = "❌";
     delBtn.addEventListener("click", deleteToDo);
     span.innerText = text;
