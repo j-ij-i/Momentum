@@ -1,0 +1,13 @@
+body {
+    background-color: cadetblue;
+}
+
+h1{
+
+    color:greenyellow;
+}
+
+.clicked{
+    color:hotpink;
+    transition: color 0.5s ease-in-out;
+}
